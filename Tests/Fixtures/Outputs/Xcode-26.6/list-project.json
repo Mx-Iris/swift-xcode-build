@@ -1,0 +1,15 @@
+{
+  "project" : {
+    "configurations" : [
+      "Debug",
+      "Release"
+    ],
+    "name" : "MinimalProject",
+    "schemes" : [
+      "MinimalTool"
+    ],
+    "targets" : [
+      "MinimalTool"
+    ]
+  }
+}

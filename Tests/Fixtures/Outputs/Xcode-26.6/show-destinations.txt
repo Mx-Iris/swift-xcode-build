@@ -1,0 +1,67 @@
+Command line invocation:
+    /Applications/Xcode-26.6.0.app/Contents/Developer/usr/bin/xcodebuild -showdestinations -scheme MinimalPackage -IDECustomDerivedDataLocation=/Users/tester/DerivedData
+
+Resolve Package Graph
+
+
+Resolved source packages:
+  MinimalPackage: /Users/tester/swift-xcode-build/Tests/Fixtures/MinimalPackage
+
+
+
+	Available destinations for the "MinimalPackage" scheme:
+		{ platform:macOS, arch:arm64, id:00006032-000C0000000000CC, name:My Mac }
+		{ platform:macOS, arch:arm64, variant:Mac Catalyst, id:00006032-000C0000000000CC, name:My Mac }
+		{ platform:macOS, arch:arm64, variant:DriverKit, id:00006032-000C0000000000CC, name:My Mac }
+		{ platform:macOS, arch:arm64, variant:Designed for [iPad,iPhone], id:00006032-000C0000000000CC, name:My Mac }
+		{ platform:iOS, arch:arm64, id:00008150-000B0000000000BB, name:Tester's iPhone Air }
+		{ platform:DriverKit, name:Any DriverKit Host }
+		{ platform:iOS, id:dvtdevice-DVTiPhonePlaceholder-iphoneos:placeholder, name:Any iOS Device }
+		{ platform:iOS Simulator, id:dvtdevice-DVTiOSDeviceSimulatorPlaceholder-iphonesimulator:placeholder, name:Any iOS Simulator Device }
+		{ platform:macOS, name:Any Mac }
+		{ platform:macOS, variant:Mac Catalyst, name:Any Mac }
+		{ platform:iOS Simulator, arch:arm64, id:69074384-5875-4BF6-9594-E3E7834477CF, OS:18.5, name:iPad (10th generation) }
+		{ platform:iOS Simulator, arch:arm64, id:2EA7C025-0C99-470A-B7D0-81677F2AFE27, OS:18.5, name:iPad (A16) }
+		{ platform:iOS Simulator, arch:arm64, id:414E88E3-4B4C-4A89-800C-6531A5F54DA6, OS:26.5, name:iPad (A16) }
+		{ platform:iOS Simulator, arch:arm64, id:3114E973-A06B-4899-BECA-EFE03765FC7D, OS:27.0, name:iPad (A16) }
+		{ platform:iOS Simulator, arch:arm64, id:B82AF1BC-121C-4A09-9456-FD1772E2E6EB, OS:18.5, name:iPad Air 11-inch (M2) }
+		{ platform:iOS Simulator, arch:arm64, id:1DCA334E-C15F-492A-8D46-2868181AAFCE, OS:18.5, name:iPad Air 11-inch (M3) }
+		{ platform:iOS Simulator, arch:arm64, id:A2F410A7-0B0B-4477-8CD2-6494181E8183, OS:26.5, name:iPad Air 11-inch (M4) }
+		{ platform:iOS Simulator, arch:arm64, id:4C2AC6AE-B37F-4B75-B0B0-32DECB1E9943, OS:27.0, name:iPad Air 11-inch (M4) }
+		{ platform:iOS Simulator, arch:arm64, id:BE457D8C-98FE-41BB-8E1D-363A5182D763, OS:18.5, name:iPad Air 13-inch (M2) }
+		{ platform:iOS Simulator, arch:arm64, id:C6EFCEFA-2B81-4AA1-B5FD-340E3595A5A4, OS:18.5, name:iPad Air 13-inch (M3) }
+		{ platform:iOS Simulator, arch:arm64, id:68444897-C5B5-49DC-ACB3-8E8EB55E70C2, OS:26.5, name:iPad Air 13-inch (M4) }
+		{ platform:iOS Simulator, arch:arm64, id:A1EDDD3C-94DE-4C4E-A84C-747DE77E61AC, OS:27.0, name:iPad Air 13-inch (M4) }
+		{ platform:iOS Simulator, arch:arm64, id:F8CFA5C5-CA21-4ECA-81E0-A37AE5B87568, OS:18.5, name:iPad Pro 11-inch (M4) }
+		{ platform:iOS Simulator, arch:arm64, id:3269BFC1-35BE-4CF8-8172-326419AB0A61, OS:26.5, name:iPad Pro 11-inch (M5) }
+		{ platform:iOS Simulator, arch:arm64, id:58F3431D-AC83-41F8-BC51-882C7CE8DD10, OS:27.0, name:iPad Pro 11-inch (M5) }
+		{ platform:iOS Simulator, arch:arm64, id:A54D4D48-E3FF-4CEC-85D1-3188E5BFAE7A, OS:18.5, name:iPad Pro 13-inch (M4) }
+		{ platform:iOS Simulator, arch:arm64, id:008679FE-73B9-4593-8DCA-0B69EEEFF31F, OS:26.5, name:iPad Pro 13-inch (M5) }
+		{ platform:iOS Simulator, arch:arm64, id:977BFB3A-F5B7-4EC8-8778-5B716E2EDD2A, OS:27.0, name:iPad Pro 13-inch (M5) }
+		{ platform:iOS Simulator, arch:arm64, id:5CF62BC2-22E7-41D9-9FB3-25672F0457E1, OS:18.5, name:iPad mini (A17 Pro) }
+		{ platform:iOS Simulator, arch:arm64, id:E45C2B19-1ED0-4163-A0E7-0486C9D3592B, OS:26.5, name:iPad mini (A17 Pro) }
+		{ platform:iOS Simulator, arch:arm64, id:FBC747AB-EE89-402F-BB91-9FCE53E43B94, OS:27.0, name:iPad mini (A17 Pro) }
+		{ platform:iOS Simulator, arch:arm64, id:E78FFF9E-A320-456F-9A7E-A08AC6221609, OS:18.5, name:iPhone 16 }
+		{ platform:iOS Simulator, arch:arm64, id:A4D092B0-F03B-4B11-A0C2-EEE115602553, OS:18.5, name:iPhone 16 Plus }
+		{ platform:iOS Simulator, arch:arm64, id:20DAFF33-83CA-4C2F-AD0E-809B05501803, OS:18.5, name:iPhone 16 Pro }
+		{ platform:iOS Simulator, arch:arm64, id:6A5639B5-4C6E-43AC-B9A1-56374D394729, OS:18.5, name:iPhone 16 Pro Max }
+		{ platform:iOS Simulator, arch:arm64, id:9FBEDA8F-D923-495F-B022-192094E71013, OS:18.5, name:iPhone 16e }
+		{ platform:iOS Simulator, arch:arm64, id:66391341-5E23-4202-82F4-C2B120D2E80D, OS:26.5, name:iPhone 17 }
+		{ platform:iOS Simulator, arch:arm64, id:08D5890A-2323-4549-89F5-25918CF65DAE, OS:27.0, name:iPhone 17 }
+		{ platform:iOS Simulator, arch:arm64, id:AB8DC291-F6D4-475A-976B-2933772FB182, OS:26.5, name:iPhone 17 Pro }
+		{ platform:iOS Simulator, arch:arm64, id:7F0E47DF-DEAB-4149-BD0A-3F52E9F02857, OS:27.0, name:iPhone 17 Pro }
+		{ platform:iOS Simulator, arch:arm64, id:5A0B768C-BE4F-4382-BACC-3E44DCC312D3, OS:26.5, name:iPhone 17 Pro Max }
+		{ platform:iOS Simulator, arch:arm64, id:3E2DB8B1-BB82-4AED-8B7E-EA73E87C49CC, OS:27.0, name:iPhone 17 Pro Max }
+		{ platform:iOS Simulator, arch:arm64, id:7AF29B2F-A9FD-4127-B426-AF1A4CB34857, OS:26.5, name:iPhone 17e }
+		{ platform:iOS Simulator, arch:arm64, id:F67A9202-86DC-4FE2-9937-80DFFA4B945B, OS:27.0, name:iPhone 17e }
+		{ platform:iOS Simulator, arch:arm64, id:DED803DD-7AFE-49D5-9628-769B89549AA5, OS:27.0, name:iPhone 18 Pro }
+		{ platform:iOS Simulator, arch:arm64, id:032A5E21-0AB2-4511-9159-B517FD2DA090, OS:27.0, name:iPhone 18 Pro Max }
+		{ platform:iOS Simulator, arch:arm64, id:29A8728E-DA85-4D91-9C87-57DE2C57F593, OS:26.5, name:iPhone Air }
+		{ platform:iOS Simulator, arch:arm64, id:F4EDB6B5-CC34-4ED4-BCC2-4EFD9A125EA2, OS:27.0, name:iPhone Air }
+		{ platform:iOS Simulator, arch:arm64, id:36743690-AB69-4886-80B5-0F7AB32AF20D, OS:18.5, name:iPhone SE (3rd generation) }
+
+	Ineligible destinations for the "MinimalPackage" scheme:
+		{ platform:tvOS, arch:arm64e, id:00008110-000A0000000000AA, name:Tester's Apple TV, error:tvOS 26.5 is not installed. Please download and install the platform from Xcode > Settings > Components. }
+		{ platform:tvOS, id:dvtdevice-DVTiOSDevicePlaceholder-appletvos:placeholder, name:Any tvOS Device, error:tvOS 26.5 is not installed. Please download and install the platform from Xcode > Settings > Components. }
+		{ platform:visionOS, id:dvtdevice-DVTiOSDevicePlaceholder-xros:placeholder, name:Any visionOS Device, error:visionOS 26.5 is not installed. Please download and install the platform from Xcode > Settings > Components. }
+		{ platform:watchOS, id:dvtdevice-DVTiOSDevicePlaceholder-watchos:placeholder, name:Any watchOS Device, error:watchOS 26.5 is not installed. Please download and install the platform from Xcode > Settings > Components. }

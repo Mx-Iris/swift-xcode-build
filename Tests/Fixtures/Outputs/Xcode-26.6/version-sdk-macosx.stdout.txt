@@ -1,0 +1,20 @@
+SDK macOS 26.5:
+[
+  {
+    "buildID" : "68E32B32-42C6-11F1-B58E-42443597F508",
+    "canonicalName" : "macosx26.5",
+    "displayName" : "macOS 26.5",
+    "iOSSupportVersion" : "26.5",
+    "isBaseSdk" : true,
+    "platform" : "macosx",
+    "platformPath" : "/Applications/Xcode-26.6.0.app/Contents/Developer/Platforms/MacOSX.platform",
+    "platformVersion" : "26.5",
+    "productBuildVersion" : "25F70",
+    "productCopyright" : "1983-2026 Apple Inc.",
+    "productName" : "macOS",
+    "productUserVisibleVersion" : "26.5",
+    "productVersion" : "26.5",
+    "sdkPath" : "/Applications/Xcode-26.6.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+    "sdkVersion" : "26.5"
+  }
+]

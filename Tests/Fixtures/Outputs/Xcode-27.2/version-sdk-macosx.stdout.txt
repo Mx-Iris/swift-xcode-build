@@ -1,0 +1,19 @@
+[
+  {
+    "buildID" : "80C464C0-C311-11F1-8D38-49B4B15453BF",
+    "canonicalName" : "macosx27.2",
+    "displayName" : "macOS 27.2",
+    "iOSSupportVersion" : "27.2",
+    "isBaseSdk" : true,
+    "platform" : "macosx",
+    "platformPath" : "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform",
+    "platformVersion" : "27.2",
+    "productBuildVersion" : "26B5110a",
+    "productCopyright" : "1983-2026 Apple Inc.",
+    "productName" : "macOS",
+    "productUserVisibleVersion" : "27.2",
+    "productVersion" : "27.2",
+    "sdkPath" : "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk",
+    "sdkVersion" : "27.2"
+  }
+]
